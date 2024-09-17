@@ -1,6 +1,8 @@
 ﻿## Запуск
 ```git clone https://github.com/resueman/internship-task.git && cd internship-task```
+
 ```docker build -t tender-management-api-image .```
+
 ```docker run -p 8080:8080 tender-management-api-image```
 Если требуемые переменные среды не заданы, то их надо будет задать или передать с docker run или указать в docker-compose
 
