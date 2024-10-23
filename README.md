@@ -1,4 +1,6 @@
-﻿## Запуск
+﻿Условие задачи находится в папке "условие"
+
+## Запуск
 ```git clone https://github.com/resueman/internship-task.git && cd internship-task```
 
 ```docker build -t tender-management-api-image .```
